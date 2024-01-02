@@ -6,3 +6,5 @@ const logoutRoute = "/logout";
 const userPreferencesRoute = "/userPreferences";
 const onBoardingRoute = "/onBoarding";
 const rootPageRoute = "/rootPage";
+const homeScreenRoute = "/homePage";
+const loginRoute = "/login";

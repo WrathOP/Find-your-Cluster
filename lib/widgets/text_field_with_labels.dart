@@ -1,5 +1,4 @@
 import 'package:find_your_cluster/styles/text_style.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class TextFieldWithLabel extends StatelessWidget {
@@ -22,7 +21,7 @@ class TextFieldWithLabel extends StatelessWidget {
             label,
             style: bodyStyle(),
           ),
-          TextField()
+          const TextField()
         ],
       ),
     );

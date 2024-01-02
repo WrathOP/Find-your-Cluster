@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-headingStyle({double fontSize = 36, Color color = const Color(0xff0d406a)}) {
+
+
+TextStyle headingStyle(
+    {double fontSize = 36, Color color = const Color(0xff0d406a)}) {
   var style = TextStyle(
     fontSize: fontSize,
     color: color,
@@ -9,7 +12,8 @@ headingStyle({double fontSize = 36, Color color = const Color(0xff0d406a)}) {
   return style;
 }
 
-subHeadingStyle({double fontSize = 18, Color color = const Color(0xff0d406a)}) {
+TextStyle subHeadingStyle(
+    {double fontSize = 18, Color color = const Color(0xff0d406a)}) {
   var style = TextStyle(
     fontSize: fontSize,
     color: color,
@@ -18,7 +22,8 @@ subHeadingStyle({double fontSize = 18, Color color = const Color(0xff0d406a)}) {
   return style;
 }
 
-bodyStyle({double fontSize = 14, Color color = const Color(0xff0d406a)}) {
+ TextStyle bodyStyle(
+    {double fontSize = 14, Color color = const Color(0xff0d406a)}) {
   var style = TextStyle(
     fontSize: fontSize,
     color: color,
@@ -27,7 +32,7 @@ bodyStyle({double fontSize = 14, Color color = const Color(0xff0d406a)}) {
   return style;
 }
 
-buttonTextStyle({double fontSize = 14, Color color = Colors.white}) {
+TextStyle buttonTextStyle({double fontSize = 14, Color color = Colors.white}) {
   var style = TextStyle(
     fontSize: fontSize,
     color: color,
@@ -35,3 +40,5 @@ buttonTextStyle({double fontSize = 14, Color color = Colors.white}) {
   );
   return style;
 }
+
+
